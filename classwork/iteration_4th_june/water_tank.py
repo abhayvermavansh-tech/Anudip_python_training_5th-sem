@@ -6,6 +6,7 @@ water_level=0
 while(water_level<100):
     #increase in water level:
     water_level = water_level+10
+    #-----------------------------------------
     print("Water Level:",water_level,"liters")
 #_--------------------------------------------    
 #when tank is full:
