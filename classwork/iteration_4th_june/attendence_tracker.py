@@ -13,6 +13,7 @@ while (student <=5):
         present = present+1
     else:
         absent = absent +1
+    #----------------------------------    
     student=student+1    
 #--------------------------------------    
 print("no. of student present =",present)
