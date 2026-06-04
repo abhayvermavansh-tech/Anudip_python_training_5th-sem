@@ -3,7 +3,7 @@
 student =1
 present =0
 absent =0
-#--------------------------------------
+#---------------------------------------
 #Iteration begins:
 while (student <=5):
     print("student",student,":")
@@ -13,9 +13,9 @@ while (student <=5):
         present = present+1
     else:
         absent = absent +1
-    #----------------------------------    
+    #-----------------------------------   
     student=student+1    
-#--------------------------------------    
+#---------------------------------------   
 print("no. of student present =",present)
 print("no. of student absent =",absent) 
-#--------------------------------------
+#---------------------------------------
