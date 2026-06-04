@@ -1,9 +1,15 @@
 #programing to calculate area and parimeter of triangle
 #input three sides
 print("-------Triangle-------")
-side1 = int(input("enter first side )in cm): "))
+side1 = int(input("enter first side (in cm): "))
+if(side1 < 0):
+  exit("the side should be posetive)
 side2 = int(input("enter second side(in cm):"))
+if(side2 < 0):
+  exit("the side should be posetive)
 side3 = int(input("enter third side(in cm):"))
+if(side3 < 0):
+  exit("the side should be posetive)
 #----------------------------------------------------
 print("--------------------------------------")
 print("first side : ",side1)
