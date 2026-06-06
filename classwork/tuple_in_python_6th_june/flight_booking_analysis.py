@@ -23,7 +23,8 @@ for i in bookings:
         count_d +=1
 print("Passengers Travelling to Delhi:",count_d,"\n")
 for i in bookings:
-    if(i[2] == "Confirmed"):     confirmed_cot +=1
+    if(i[2] == "Confirmed"):     
+        confirmed_cot +=1
 for i in bookings:
     if(i[2] == "Waiting"):
         Waiting_cot +=1
