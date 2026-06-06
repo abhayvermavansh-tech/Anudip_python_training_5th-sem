@@ -10,7 +10,6 @@ for i in scores:
     if(i>=50):
         half_centuries.append(i)
         count +=1
-print(half_centuries,"\n")        
 for i in scores:
     if(i>=100):
         centuries.append(i)
@@ -27,4 +26,5 @@ for i in scores:
 print("all scores below 20:\n",less,"\n")        
 for i in scores:
     score += i
-print("The average score:",score//len(scores)) 
+print("The average score:",score//len(scores))    
+      
