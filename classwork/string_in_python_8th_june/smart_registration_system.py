@@ -75,3 +75,20 @@ print("Name with Underscore: ", name_with_underscore)
 print("Starts With A: ", name.startswith("A"))
 #10. Count how many times the letter "a" appears in the employee's name.
 print("Count of 'a': ", name.lower().count("a"))
+"""
+output:
+Enter Full Name: anuj kumar
+Enter Email ID: anuj.kumar@company.com
+-----------------------------------------
+Name in Uppercase :  ANUJ KUMAR
+Name in Title Case :  Anuj Kumar
+Total Characters:  10
+Spaces:  1  
+Valid Email:  True
+Ends With .com:  True
+Company Name:  company
+Name with Underscore:  anuj_kumar
+Starts With A:  False
+Count of 'a':  2
+"""
+
